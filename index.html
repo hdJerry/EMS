@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Event-Management</title>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script  src="js/bootstrap.js"></script>
+    <script  src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link  href="css/pumpy.css" rel="stylesheet" >
+
+</head>
+<body>
+
+
+<div class = "navbar navbar-default navbar-fixed-top" >
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand mx-5">EVS</a>
+
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="
+                   .navbar-collapse">
+                <span class = "sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+        </div>
+        <div class="collapse navbar-collapse navbar-right" >
+            <ul class="nav navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">BROWSE EVENTS</a>
+                </li>
+                <li class="nav-divide"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LEARN MORE</a>
+                </li>
+            </ul>
+
+                 <span class="padded"><a class="btn btn-outline-red" href="">Login</a></span>
+            <span class="padded"><a class="btn btn-red" href="">Create Event</a></span>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 special" id="tops">
+            <h1> FIND YOUR NEXT EXPERIENCE </h1>
+        </div>
+    </div>
+    <!--Over Lay Part begins-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-md-offset-0 info" >
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 find">
+                        <form class="form-inline inline">
+                            <div class="form-group">
+                                <input type="text" class = "form-control" name="events" id = "events" placeholder="Search events or categories" required>
+                            </div >
+
+                            <div class="form-group">
+                                <span class="glyphicon glyphicon-map-marker"></span>
+                                <input type="text" class = "form-control" name="location" id = "location" placeholder="Location" required>
+
+
+                            </div>
+
+                            <div class="form-group">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                                <input type="text" class = "form-control" name="date" id = "date" placeholder="Date" required>
+
+
+                            </div>
+
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-danger" value="SEARCH" name = "search" id="but">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <div class="row done">
+                    <div class="col-md-8 col-md-offset-3">
+                        <form class="form-inline">
+                            <div class="form-group">
+                                <label for="pop">Population Event in</label>
+                                <input type="text" class = "form-control" name="pop" id = "pop" placeholder="Enter city or location">
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row  fix">
+                        <div class="col-md-12">
+                            <div class="col-md-4 ">
+                                <div class="obj1">
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <img src="images/no1.jpg" class="pictures">
+                                        </div>
+                                    </div>
+
+                                    <div class="below">
+                                        <div class="row">
+                                            <div class="col-md-12 help">
+                                                <p>
+                                                    <span class="eve">Lorem Ipsum Event</span>
+                          <span class="star">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                              </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1 street">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1">
+                                                <div class="hori"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-11 col-md-offset-1 site">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria bla bla bla, u know bla bla</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="obj2">
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <img src="images/events-heavenly-header.jpg" class="pictures">
+                                        </div>
+                                    </div>
+
+                                    <div class="below">
+                                        <div class="row">
+                                            <div class="col-md-12 help">
+                                                <p>
+                                                    <span class="eve">Lorem Ipsum Event</span>
+                          <span class="star">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                              </span>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1 street">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1">
+                                                <div class="hori"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-11 col-md-offset-1 site">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria bla bla bla, u know bla bla</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4">
+                                <div class="obj3">
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <img src="images/MWA17-126-of-1427.jpg" class="pictures">
+                                        </div>
+                                    </div>
+
+                                    <div class="below">
+                                        <div class="row">
+                                            <div class="col-md-12 help">
+                                                <p>
+                                                    <span class="eve">Lorem Ipsum Event</span>
+                          <span class="star">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                              </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1 street">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1">
+                                                <div class="hori"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-11 col-md-offset-1 site">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria bla bla bla, u know bla bla</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row  fix">
+                        <div class="col-md-12">
+                            <div class="col-md-4 ">
+                                <div class="obj4">
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <img src="images/no1.jpg" class="pictures">
+                                        </div>
+                                    </div>
+
+                                    <div class="below">
+                                        <div class="row">
+                                            <div class="col-md-12 help">
+                                                <p>
+                                                    <span class="eve">Lorem Ipsum Event</span>
+                          <span class="star">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                              </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1 street">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1">
+                                                <div class="hori"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-11 col-md-offset-1 site">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria bla bla bla, u know bla bla</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="obj5">
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <img src="images/events-heavenly-header.jpg" class="pictures">
+                                        </div>
+                                    </div>
+
+                                    <div class="below">
+                                        <div class="row">
+                                            <div class="col-md-12 help">
+                                                <p>
+                                                    <span class="eve">Lorem Ipsum Event</span>
+                          <span class="star">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                              </span>
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1 street">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1">
+                                                <div class="hori"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-11 col-md-offset-1 site">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria bla bla bla, u know bla bla</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4">
+                                <div class="obj6">
+                                    <div class="row">
+                                        <div class="col-md-12">
+
+                                            <img src="images/MWA17-126-of-1427.jpg" class="pictures">
+                                        </div>
+                                    </div>
+
+                                    <div class="below">
+                                        <div class="row">
+                                            <div class="col-md-12 help">
+                                                <p>
+                                                    <span class="eve">Lorem Ipsum Event</span>
+                          <span class="star">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                              </span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1 street">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-10 col-md-offset-1">
+                                                <div class="hori"></div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-11 col-md-offset-1 site">
+                                                <span>No 36 Lorem Ipsum street,lorem ipsum Nigeria bla bla bla, u know bla bla</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-5 bb">
+                        <input type="submit" class="btn see" value="See More" />
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div><!--Over Lay Part ends-->
+
+    <!--Browse By categories begins-->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-7 col-md-offset-4 ohh">
+                <span class="btw">BROWSE BY CATEGORIES</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <div class="one">
+                    <span class="sign">MUSIC</span>
+                </div>
+            </div>
+            <div class="col-md-5 " >
+                <div class="two">
+                    <span class="sign">WEDDING</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5" >
+                <div class=" tree">
+                    <span class="sign">ART</span>
+                </div>
+            </div>
+            <div class="col-md-7" >
+                <div class=" four">
+                    <span class="sign">PARTY</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7 ">
+                <div class=" five">
+                    <span class="sign">TECH MEETUP</span>
+                </div>
+            </div>
+            <div class="col-md-5" >
+                <div class=" six">
+                    <span class="sign">SPORT</span>
+                </div>
+            </div>
+        </div>
+    </div><!--Browse By categories ends-->
+
+    <!--Footer begins-->
+    <div class="row">
+        <div class="col-md-12 footer" id="botts">
+            <div class="row">
+        <div class="col-md-4">
+            <div class="col-md-offset-1">
+            <span id="fsign">EVS</span><span id="copy">Copyright &copy; 2017 EVS</span>
+            </div>
+        </div>
+        <div class="col-md-8 elink">
+            <div id="got" class="col-md-offset-7">
+              <span class="ink"> <a href="" class="">FAQ</a></span>
+                <span class="ink"><a href="" class="">HELP</a></span>
+                 <span class="ink"><a href="" class="">PRIVACY</a></span>
+                   <span class="ink"><a href="" class="">TERMS</a></span>
+               </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <!--<div id="topN"><div class="fine"><a href="#tops">up</a></div></div>
+    <div id="bottF"><div class="fine"><a href="#botts">down</a></div></div>-->
+
+</div>
+<script src="js/index.js"></script>
+</body>
+</html>
