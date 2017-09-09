@@ -118,6 +118,21 @@ a.nav-link:hover {
     box-sizing: border-box;
 
 }
+.form-control{
+     margin-left:10px;
+     
+}
+
+.lol{
+    margin-left: 20px;
+   
+}
+
+.la{
+    margin-left: 60px;
+}
+
+
 .inline{
     padding: 10px 4px 10px 0!important;
 
