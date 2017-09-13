@@ -3,10 +3,10 @@ body{
 }
 
 .navbar-toggle{
-   background-color: #d60004 !important;
+    background-color: #d60004 !important;
 }
 .navbar-toggle:hover{
-   background-color: transparent !important;
+    background-color: transparent !important;
 }
 .navbar-default{
     background-color: #ffffff!important;
@@ -19,9 +19,6 @@ body{
     margin-top: 6px;
     opacity: 0.3;
 }
-.glyphicon{
-    color: #d60004;
-}
 
 .nav-item {
     padding-left: 10px;
@@ -32,7 +29,7 @@ a.navbar-brand {
     color: #d60004 !important;
     font-size: 2.7em !important;
     font-weight: 700 !important;
-    text-shadow: 2px 2px 1px gray,2px 2px 1px gray;
+    text-shadow: 2px 2px 1px lightgray,3px 3px black;
 }
 
 a.nav-link {
@@ -135,6 +132,7 @@ a.nav-link:hover {
     width:138px;
 }
 
+
 .glyphicon{
     font-size: 4px!important;
 }
@@ -142,11 +140,11 @@ a.nav-link:hover {
     color:#d60004 !important ;
 }
 .star{
-    margin-left: 30px!important;
+   // margin-left: 30px!important;
     font-size: 1px!important;
 }
 .eve{
-    font-size: 16px!important;
+    font-size: 15px!important;
     color:#d60004 !important ;
     margin-left: 20px;
 
@@ -156,6 +154,7 @@ a.nav-link:hover {
     padding: 10px!important;
     word-wrap: break-word;
     box-sizing: border-box;
+	margin-bottom:10px;
 }
 .info{
     background-color: #ffffff !important;
@@ -188,33 +187,32 @@ label{
 }
 .obj1:hover{
     box-shadow: 2px 2px 20px 2px #808080;
-    /*transform: rotateY(360deg);*/
-    transition: 3s;
+   
+    
 }
 .obj2:hover{
     box-shadow: 2px 2px 20px 2px #808080;
-    /*transform: rotateY(360deg);*/
-    transition: 3s;
+    
+  
 }
 .obj3:hover{
     box-shadow: 2px 2px 20px 2px #808080;
-    /*transform: rotateY(360deg);*/
-    transition: 3s;
+   
+    
 }
 .obj4:hover{
     box-shadow: 2px 2px 20px 2px #808080;
-    /*transform: rotateY(360deg);*/
-    transition: 3s;
+    
+   
 }
 .obj5:hover{
     box-shadow: 2px 2px 20px 2px #808080;
-    /*transform: rotateY(360deg);*/
-    transition: 3s;
+    
+   
 }
 .obj6:hover{
     box-shadow: 2px 2px 20px 2px #808080;
-    /*transform: rotateY(360deg);*/
-    transition: 3s;
+    
 }
 .fix{
     margin-top: 30px!important;
@@ -338,17 +336,17 @@ label{
     background-color: #d60004;
     padding: 17px;
 }
-   .elink a{
-       text-decoration: none;
-       display:inline block;   
-       padding: 10px;
-       color: white;
-   }
+.elink a{
+    text-decoration: none;
+    display:inline block;
+    padding: 10px;
+    color: white;
+}
 .ink, #copy{
- font-size: 2px!important;
- color: white;
- font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- font-weight: lighter;
+    font-size: 2px!important;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
 }
 #fsign{
     font-size: 22px;
@@ -365,37 +363,18 @@ label{
     color: lightslategray;
 }
 
-@media screen and (min-width:720) and (max-width:900){
-   
+@media screen and (min-width:320px) and (max-width:900px){
+   #events,#location,#date,#but{
+	   width:100%!important;
+   }
+   .obj1,.obj2,.obj3,.obj4,.obj5,.obj6{
+	   margin-top:10px;
+   }
+   .star{
+	   margin-left:20px;
+   }
 }
-/*#topN{
-    width: 50px;
-    height: 50px;
-    
-    border-radius: 100%;
-    position: fixed;
-    top:120px;
-    right: 0;
-    border: 1px solid lightgrey;
-    background-color: #d60004;
-    color: lightgrey;
-    font-size: 20px;
-    text-align: center;
-}
-#bottF{
-    width: 50px;
-    height: 50px;
-    
-    border-radius: 100%;
-    position: fixed;
-    bottom:120px;
-    right: 0;
-    border: 1px solid lightgrey;
-    background-color: #d60004;
-    color: lightgrey;
-    font-size: 18px;
-    text-align: center;
-}*/
+
 /*.fine{
     margin-top:11px;
 }*/
