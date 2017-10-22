@@ -99,10 +99,11 @@ a.nav-link:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    letter-spacing: 0.3em;
+    //letter-spacing: 0.3em;
     /*font-family: 'Oxygen', Arial, sans-serif;*/
     color: #fff;
     font-weight: bold;
+	font-size:45px;
 }
 .container-fluid{
     margin-top: 70px;
@@ -160,7 +161,7 @@ a.nav-link:hover {
     background-color: #ffffff !important;
     padding-top: 50px!important;
     margin-top: -120px;
-    box-shadow: 2px 2px 20px 2px #808080;
+    box-shadow: 1px 1px 5px 1px #808080;
     margin-bottom: 40px!important;
     border-radius: 6px;
 }
@@ -173,7 +174,7 @@ label{
 .pictures{
     width: 100%;
     height: 200px!important;
-
+    border-radius:6px;
 }
 
 
@@ -184,6 +185,7 @@ label{
 }
 .obj1,.obj2,.obj3,.obj4,.obj5,.obj6{
     border: 1px solid lightgrey;
+	border-radius:6px;
 }
 .obj1:hover{
     box-shadow: 2px 2px 20px 2px #808080;
@@ -338,7 +340,7 @@ label{
 }
 .elink a{
     text-decoration: none;
-    display:inline block;
+    display:inline-block;
     padding: 10px;
     color: white;
 }
@@ -363,7 +365,7 @@ label{
     color: lightslategray;
 }
 
-@media screen and (min-width:320px) and (max-width:900px){
+@media screen and (min-width:320px) and (max-width:767px){
    #events,#location,#date,#but{
 	   width:100%!important;
    }
@@ -373,6 +375,20 @@ label{
    .star{
 	   margin-left:20px;
    }
+    .nav-divide {
+        border: none;
+        display:none;
+    }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+ 
+   .star{
+	   margin-left:20px;
+   }
+    .nav-divide {
+        border: none;
+        display:none;
+    }
 }
 
 /*.fine{
@@ -389,4 +405,109 @@ a:active{
 }
 a:link{
     text-decoration: none;
+}
+.browse{
+    background: linear-gradient(rgba(158, 158, 158, 0.40), rgba(158, 158, 158, 0.40)),url("../images/IMG_8876.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*margin-bottom: 20px!important;*/
+    height: 250px;
+    /*text-align: center;*/
+    /*padding-top: 90px;*/
+}
+.advert{
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0.20)),url("../images/event-music.jpg");
+    padding-top: 30px;
+    padding-bottom: 140px;
+    border: none!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+//letter-spacing: 0.3em;
+    /*font-family: 'Oxygen', Arial, sans-serif;*/
+    /*color: #fff;*/
+    /*font-weight: bold;*/
+    /*font-size:45px;*/
+}
+.trend{
+
+}
+.inform{
+    background-color: #ffffff !important;
+    /*padding: 7px!important;*/
+
+    margin-top: -140px;
+    box-shadow: 1px 1px 1px 1px #808080;
+    margin-bottom: 40px!important;
+    border-radius: 4px;
+}
+.hints{
+    height: 250px;
+    background-color: white;
+    text-align: left;
+   padding-top: 5px;
+}
+.prosbut{
+    /*padding: 10px 95px 10px 95px;*/
+    width: 100%;
+}
+.laff{
+    text-align: center;
+}
+.laffloud{
+    text-align: right;
+    color: lightslategrey;
+    margin-top: 8px;
+}
+.laffbord{
+    border: 1px solid darkgrey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.trying{
+    margin-top:10px;
+}
+.calender{
+    color: deepskyblue;
+}
+.board{
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+}
+table{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    border: none;
+    margin-bottom: 30px;
+}
+.targets{
+    font-weight: bolder;
+    font-size: 17px;
+    margin-right: 3px;
+    text-align: center;
+    background-color: #dcdcdc;
+    border-radius: 100%;
+    padding: 10px;
+}
+.nams{
+    font-weight: bolder;
+    font-size: 6px;
+}
+.viewmap{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.viewbut{
+    border: 1px solid #d60004;
+    background-color: snow;
+    color: #d60004;
+    transition: 1s;
+}
+.viewbut:hover{
+    border: 1px solid #d60004;
+    background-color: #d60004;
+    color: snow;
+    transition: 1s;
 }
