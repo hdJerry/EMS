@@ -12,6 +12,14 @@ $(document).ready(function(){
 	  
 	   $(".container").hover(function(){
 			$(".navbar-collapse").slideUp("slow");
-		});	
+		});
+
+	   $('.contentUpdate').click(function () {
+           var newClass =$(this).attr('href').substring(1);
+            var newContent = $('.'+newClass).html();
+            $('#content').html(newContent);
+       });
 
 });
+d = new Date();
+document.querySelector(".mediaDate").innerHTML = d.toUTCString();
