@@ -511,3 +511,99 @@ table{
     color: snow;
     transition: 1s;
 }
+.options{
+    border: none;
+    background-color: transparent;
+    color: #2b669a;
+    text-align: left;
+}
+.divide{
+    border-bottom: 1px solid #d4d4d4;
+    margin-left: 10px;
+}
+.caty{margin-left: 81px}
+.eventT{margin-left: 71px}
+.date{margin-left: 122px}
+.price{margin-left: 116px}
+.backG{
+    background-color: #f9f9f9;
+}.backGG{
+     background-color: white;
+ }
+ .sinput{
+     padding-top: 5px;
+ }
+ .btnpick{
+     background-color: transparent;
+     border-color: darkgrey;
+ }
+.btnpick:visited{
+     border-bottom: 3px solid #d60004;
+ }
+.btnpick:hover{
+    border-bottom:3px solid #2b669a;
+}
+.lunch{
+    background: linear-gradient(rgba(158, 158, 158, 0.40), rgba(158, 158, 158, 0.40)),url("../images/IMG_8876.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*margin-bottom: 20px!important;*/
+    height: 130px;
+    /*text-align: center;*/
+    /*padding-top: 90px;*/
+}
+.album{
+    background-color: white;
+    box-shadow: 1px 1px 1px #d4d4d4;
+    margin-top: 10px;
+}
+.mediaDate{
+    color: grey;
+}
+.luchTag{
+    background-color: #d4d4d4;
+    text-align: left;
+}
+.pointer{
+    border-top: 1px solid #d4d4d4;
+}
+.opty{
+    text-align: right;
+}
+.sell{
+    font-size: 15px;
+    color: grey;
+    margin-left: 5px;
+}
+.sharer,.marker{
+    border-left: 1px solid #d4d4d4;
+    padding: 10px;
+    color: #ccc;
+}
+.sellB{
+    padding: 5px;
+}
+#googleMap{
+    margin-top: 25px;
+}
+
+@media screen and (min-width:320px) and (max-width:767px){
+    .sharer,.marker{
+        border: none;
+
+    }.opty{
+         text-align: left;
+     }
+    .caty{margin-left: 261px}
+    .eventT{margin-left: 251px}
+    .date{margin-left: 302px}
+    .price{margin-left: 295px}
+}
+@media screen and (min-width:768px) and (max-width:992px){
+
+
+}
+.hiddenContent{
+    display: none;
+}
